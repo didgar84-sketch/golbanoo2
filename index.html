@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="utf-8"/>
@@ -6,7 +6,11 @@
 <title>گُل بانو | شیرینی‌های خانگی لوکس</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?
+
+family=Vazirmatn:wght@400;600;800&family=Playfair
+
++Display:wght@700;800&display=swap" rel="stylesheet">
 <style>
   :root{
     --purple:#6a11cb;
@@ -16,42 +20,76 @@
     --bg:#ffffff;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"Vazirmatn",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-
+
+family:"Vazirmatn",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
   a{text-decoration:none}
   .container{max-width:1160px;margin:0 auto;padding:0 16px;}
   /* Header */
-  header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.8);backdrop-filter:blur(8px);border-bottom:1px solid #eee}
+  header{position:sticky;top:0;z-index:20;background:rgba
+
+(255,255,255,.8);backdrop-filter:blur(8px);border-bottom:1px solid #eee}
   .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
-  .logo{font-family:"Playfair Display",serif;font-weight:800;letter-spacing:.5px;background:linear-gradient(90deg,#b30086,#e7c468);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:26px}
-  .cta{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(90deg,var(--purple),var(--gold));color:#fff;padding:10px 16px;border-radius:14px;font-weight:700;box-shadow:0 8px 20px rgba(106,17,203,.18)}
+  .logo{font-family:"Playfair Display",serif;font-weight:800;letter-
+
+spacing:.5px;background:linear-gradient(90deg,#b30086,#e7c468);-webkit-background-
+
+clip:text;background-clip:text;color:transparent;font-size:26px}
+  .cta{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient
+
+(90deg,var(--purple),var(--gold));color:#fff;padding:10px 16px;border-
+
+radius:14px;font-weight:700;box-shadow:0 8px 20px rgba(106,17,203,.18)}
   /* Hero */
   .hero{position:relative;overflow:hidden}
-  .hero-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:40px 0}
-  .hero h1{font-weight:800;font-size:clamp(28px,4vw,44px);line-height:1.35;margin:0;letter-spacing:-.2px}
-  .accent{background:linear-gradient(90deg,var(--purple),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-
+
+items:center;padding:40px 0}
+  .hero h1{font-weight:800;font-size:clamp(28px,4vw,44px);line-
+
+height:1.35;margin:0;letter-spacing:-.2px}
+  .accent{background:linear-gradient(90deg,var(--purple),var(--gold));-webkit-
+
+background-clip:text;background-clip:text;color:transparent}
   .hero p{margin-top:12px;color:#555;line-height:1.9}
   .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-  .badge{border:1px solid #eee;border-radius:999px;padding:8px 12px;background:#fff}
-  .hero-img{position:relative;border-radius:24px;overflow:hidden;box-shadow:0 24px 60px rgba(106,17,203,.18)}
-  .hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(106,17,203,.18),rgba(212,175,55,.08));}
+  .badge{border:1px solid #eee;border-radius:999px;padding:8px 
+
+12px;background:#fff}
+  .hero-img{position:relative;border-radius:24px;overflow:hidden;box-shadow:0 24px 
+
+60px rgba(106,17,203,.18)}
+  .hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient
+
+(120deg,rgba(106,17,203,.18),rgba(212,175,55,.08));}
   .hero-img img{display:block;width:100%;height:auto;vertical-align:middle}
   /* Products */
   section.products{padding:32px 0 12px}
   section.products h2{font-size:22px;margin:0 0 14px 0;font-weight:800}
   .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-  .card{background:#fff;border:1px solid #eee;border-radius:22px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.04);}
+  .card{background:#fff;border:1px solid #eee;border-
+
+radius:22px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.04);}
   .card picture{display:block;aspect-ratio:1/1;overflow:hidden}
   .card img{width:100%;height:100%;object-fit:cover;display:block}
   .card .content{padding:12px 14px}
   .card h3{margin:2px 0 6px 0;font-size:15px}
   .price{color:#6a11cb;font-weight:700;font-size:13px}
-  .tag{background:#f5e7ff;border:1px solid #efd6ff;color:#6a11cb;border-radius:12px;padding:4px 8px;font-size:11px}
-  .buy{display:inline-flex;margin-top:8px;font-size:12px;font-weight:700;border-radius:12px;padding:8px 12px;color:#fff;background:linear-gradient(90deg,var(--purple),var(--gold));}
+  .tag{background:#f5e7ff;border:1px solid #efd6ff;color:#6a11cb;border-
+
+radius:12px;padding:4px 8px;font-size:11px}
+  .buy{display:inline-flex;margin-top:8px;font-size:12px;font-weight:700;border-
+
+radius:12px;padding:8px 12px;color:#fff;background:linear-gradient(90deg,var(--
+
+purple),var(--gold));}
   /* Order */
   section.order{padding:30px 0}
   .order-box{background:#fff;border:1px solid #eee;border-radius:22px;padding:18px}
   .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-  input,textarea{width:100%;border:1px solid #e7e7e7;border-radius:14px;padding:10px 12px;font-family:inherit;outline:none}
+  input,textarea{width:100%;border:1px solid #e7e7e7;border-
+
+radius:14px;padding:10px 12px;font-family:inherit;outline:none}
   textarea{resize:vertical;min-height:90px}
   .whats{display:inline-flex;align-items:center;gap:.5rem;margin-top:10px}
   .note{font-size:12px;color:#666;margin-right:10px}
@@ -60,7 +98,9 @@
   .faq-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
   .faq-item{background:#fff;border:1px solid #eee;border-radius:18px;padding:14px}
   /* Footer */
-  footer{border-top:1px solid #eee;padding:22px 0;margin-top:14px;color:#777;font-size:12px}
+  footer{border-top:1px solid #eee;padding:22px 0;margin-top:14px;color:#777;font-
+
+size:12px}
   @media (max-width:960px){
     .hero-wrap{grid-template-columns:1fr;gap:16px}
     .grid{grid-template-columns:repeat(2,1fr)}
@@ -92,7 +132,7 @@
       </div>
     </div>
     <div class="hero-img">
-      <img src='assets/hero. jpg ' alt='Gol Banoo Hero'/>
+      <img src='assets/hero.jpg' alt='Gol Banoo Hero'/>
     </div>
   </div>
 </main>
@@ -105,11 +145,15 @@
       <!-- 1 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/1.webp">
-          <img src="assets/products/1.jpg" alt="شیرینی مدرن کاراملا " loading="lazy" decoding="async">
+          
+          <img src="./assets/products/1.jpg" alt="شیرینی مدرن کاراملا " loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی مدرن کاراملا </h3><span class="tag">پرفروش</span>
           </div>
           <div class="price">هر عدد 40٬000 تومان</div>
@@ -119,11 +163,15 @@
       <!-- 2 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/2.webp">
-          <img src="assets/products/2.jpg" alt="شیرینی مدرن گردویی لوتوس" loading="lazy" decoding="async">
+          
+          <img src="assets/products/2.jpg" alt="شیرینی مدرن گردویی لوتوس" loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی مدرن گردویی لوتوس</h3><span class="tag">سفارشی</span>
           </div>
           <div class="price">هر عدد 60٬000 تومان</div>
@@ -133,11 +181,15 @@
       <!-- 3 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/3.webp">
-          <img src="assets/products/3.jpg" alt="حلوای بوتیکی بادام" loading="lazy" decoding="async">
+          
+          <img src="assets/products/3.jpg" alt="حلوای بوتیکی بادام" loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>حلوای بوتیکی بادام</h3><span class="tag">تازه‌پز</span>
           </div>
           <div class="price">هر عدد 45٬000 تومان</div>
@@ -147,11 +199,15 @@
       <!-- 4 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/4.webp">
-          <img src="assets/products/4.jpg" alt=" دسر مدرن باقلوا" loading="lazy" decoding="async">
+          
+          <img src="assets/products/4.jpg" alt=" دسر مدرن باقلوا" loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>دسر مدرن باقلوا</h3><span class="tag">هدیه</span>
           </div>
           <div class="price">هر اسلایس 160٬000 تومان</div>
@@ -161,11 +217,15 @@
       <!-- 5 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/5.webp">
-          <img src="assets/products/5.jpg" alt="شیرینی سنتی اشرفی " loading="lazy" decoding="async">
+          
+          <img src="assets/products/5.jpg" alt="شیرینی سنتی اشرفی " loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی سنتی اشرفی </h3><span class="tag">جدید</span>
           </div>
           <div class="price">هر عدد 25٬000 تومان</div>
@@ -175,11 +235,15 @@
       <!-- 6 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/6.webp">
-          <img src="assets/products/6.jpg" alt="ساوارین پینتا اوت" loading="lazy" decoding="async">
+          
+          <img src="assets/products/6.jpg" alt="ساوارین پینتا اوت" loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>ساوارین پینتا اوت</h3><span class="tag">ویژه</span>
           </div>
           <div class="price">هر عدد 25٬000 تومان</div>
@@ -189,11 +253,15 @@
       <!-- 7 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/7.webp">
-          <img src="assets/products/7.jpg" alt="شیرینی مدرن فرزین" loading="lazy" decoding="async">
+          
+          <img src="assets/products/7.jpg" alt="شیرینی مدرن فرزین" loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی مدرن فرزین</h3><span class="tag">پیشنهاد سرآشپز</span>
           </div>
           <div class="price">هر عدد 50٬000 تومان</div>
@@ -203,11 +271,15 @@
       <!-- 8 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/8.webp">
-          <img src="assets/products/8.jpg" alt="شیرینی سنتی اندرونی نارگیلی  " loading="lazy" decoding="async">
+          
+          <img src="assets/products/8.jpg" alt="شیرینی سنتی اندرونی نارگیلی  " loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی سنتی اندرونی نارگیلی </h3><span class="tag">لوکس</span>
           </div>
           <div class="price">هر عدد 30٬000 تومان</div>
@@ -217,11 +289,15 @@
       <!-- 9 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/9.webp">
-          <img src="assets/products/9.jpg" alt="شیرینی سنتی اندرونی پسته ای" loading="lazy" decoding="async">
+          
+          <img src="assets/products/9.jpg" alt="شیرینی سنتی اندرونی پسته ای" loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی سنتی اندرونی پسته ای</h3><span class="tag">پرفروش</span>
           </div>
           <div class="price">هر عدد 40٬000 تومان</div>
@@ -231,11 +307,15 @@
       <!-- 10 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/10.webp">
-          <img src="assets/products/10.jpg" alt="شیرینی سنتی اشرفی " loading="lazy" decoding="async">
+          
+          <img src="assets/products/10.jpg" alt="شیرینی سنتی اشرفی " loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی سنتی اشرفی</h3><span class="tag">تازه‌پز</span>
           </div>
           <div class="price">هر عدد 35٬000 تومان</div>
@@ -245,11 +325,15 @@
       <!-- 11 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/11.webp">
-          <img src="assets/products/11.jpg" alt="شیرینی مدرن رینگ باقلوا " loading="lazy" decoding="async">
+          
+          <img src="assets/products/11.jpg" alt="شیرینی مدرن رینگ باقلوا " loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی مدرن رینگ باقلوا</h3><span class="tag">مجلسی</span>
           </div>
           <div class="price">هر عدد 45٬000 تومان</div>
@@ -259,11 +343,15 @@
       <!-- 12 -->
       <div class="card">
         <picture>
-          <source type="image/webp" srcset="assets/products/12.webp">
-          <img src="assets/products/12.jpg" alt="شیرینی مدرن گاناش کوکی " loading="lazy" decoding="async">
+          
+          <img src="assets/products/12.jpg" alt="شیرینی مدرن گاناش کوکی " loading="lazy" 
+
+decoding="async">
         </picture>
         <div class="content">
-          <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="display:flex;justify-content:space-between;align-
+
+items:center">
             <h3>شیرینی مدرن گاناش کوکی</h3><span class="tag">عطری</span>
           </div>
           <div class="price">هر عدد 25٬000 تومان</div>
@@ -306,7 +394,9 @@
         </div>
       </div>
       <div class="whats">
-        <a class="cta" id="waBtn" href="#" target="_blank" rel="noreferrer">ارسال واتساپ</a>
+        <a class="cta" id="waBtn" href="#" target="_blank" rel="noreferrer">ارسال 
+
+واتساپ</a>
         <span class="note">پیام از طریق واتساپ امن ارسال می‌شود.</span>
       </div>
     </div>
@@ -318,22 +408,30 @@
     <div class="faq-grid">
       <div class="faq-item">
         <h3 style="margin:0 0 6px 0">چطور سفارش ویژه بدم؟</h3>
-        <p style="margin:0;color:#555;line-height:1.9">در فرم سفارش، توضیحات دلخواه رو بنویسید (رنگ، طرح، پیام تبریک). تایید و قیمت نهایی در واتساپ اعلام می‌شود.</p>
+        <p style="margin:0;color:#555;line-height:1.9">در فرم سفارش، توضیحات دلخواه رو بنویسید (رنگ، طرح، پیام 
+
+تبریک). تایید و قیمت نهایی در واتساپ اعلام می‌شود.</p>
       </div>
       <div class="faq-item">
         <h3 style="margin:0 0 6px 0">تحویل در چه شهرهایی دارید؟</h3>
-        <p style="margin:0;color:#555;line-height:1.9">تحویل سریع داخل شهر تهران فراهم است؛ ارسال به شهرهای دیگر با بسته‌بندی محافظ انجام می‌شود.</p>
+        <p style="margin:0;color:#555;line-height:1.9">تحویل سریع داخل شهر تهران فراهم است؛ ارسال به شهرهای 
+
+دیگر با بسته‌بندی محافظ انجام می‌شود.</p>
       </div>
       <div class="faq-item">
         <h3 style="margin:0 0 6px 0">مواد اولیه چیست؟</h3>
-        <p style="margin:0;color:#555;line-height:1.9">از کرهٔ حیوانی، خامهٔ تازه و مواد باکیفیت استفاده می‌کنیم؛ بدون اسانس‌های بی‌کیفیت.</p>
+        <p style="margin:0;color:#555;line-height:1.9">از کرهٔ حیوانی، خامهٔ تازه و مواد باکیفیت استفاده می‌کنیم؛ بدون 
+
+اسانس‌های بی‌کیفیت.</p>
       </div>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+  <div class="container" style="display:flex;justify-content:space-between;align-
+
+items:center;gap:12px;flex-wrap:wrap">
     <div class="logo">GOL BANOO</div>
     <div>©  گُل بانو — تمام حقوق محفوظ است.</div>
     <a class="cta" href="#order">سفارش واتساپی</a>
